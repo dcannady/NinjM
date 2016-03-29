@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>add new users</title>
+    <link rel="stylesheet" type="text/css" href="BattleArena.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+      <script type="text/javascript">
+        function setBackImg(){
+          $('button').click(function(){
+            $('body').attr('background', 'arena/beach.jpg');
+          })
+          }
+          $(document).ready(function(){
+            $('#beach').hover(function(){
+              $('body').attr('background','arena/beach.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $('#planet').hover(function(){
+              $('body').attr('background','arena/planet.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $('#dojo').hover(function(){
+              $('body').attr('background','arena/dojo.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $('#forest').hover(function(){
+              $('body').attr('background','arena/forest.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $('#matrix').hover(function(){
+              $('body').attr('background','arena/matrix.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $('#snow').hover(function(){
+              $('body').attr('background','arena/snow.jpg');
+              }, function(){
+                $('body').attr('background','');
+              });
+            $(document).on('click', '#beach', function(){
+              $('body').attr('background','arena/beach.jpg');
+            });
+          });
+        </script>
+      </head>
+      <body>
+        <div class="wrapper">
+          <div id="back-img">
+            <div id="select">
+              <h1>SelectArea</h1>
+              <button id="beach">beach</button>
+              <button id="planet">planet</button>
+              <button id="dojo">dojo</button></br>
+              <button id="forest">forest</button>
+              <button id="matrix">matrix</button>
+              <button id="snow">snow</snow>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+            }
+              <!-- $(document).ready(function(){
+                var first = $('#frame').val(){
+                var last = $('#1name').val(){
+                var email = $('#email').val(){
+                var contact = $('#phone').val(){ -->
+  </body>
+</html>
